@@ -1,0 +1,26 @@
+{
+    "id": "1B07D434",
+    "path": "D:/data_science/project/dashboard_rstudio/Final/app.R",
+    "project_path": "app.R",
+    "type": "r_source",
+    "hash": "3773137956",
+    "contents": "",
+    "dirty": false,
+    "created": 1670532948635.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "17,4",
+        "scrollLine": "36"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1670542798,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1670542798794,
+    "read_only": false,
+    "read_only_alternatives": []
+}

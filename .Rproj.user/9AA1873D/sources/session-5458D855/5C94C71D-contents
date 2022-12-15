@@ -1,0 +1,21 @@
+
+library(plotly)
+library(dplyr)
+
+data <- iris
+data.num <- select_if(data, is.numeric)
+n.row <- length(data.num)/2
+
+
+anu <- c()
+for (name in names(data.num)){
+  anu[name] <- plot_ly(x= data.num[[name]], type='histogram',height = 700/n.row)%>%
+    layout(xaxis = list(title = 'xaxis1 title'), yaxis = list(title = 'yaxis1 title'))%>%
+    add_trace(name=name)
+}
+fig <- subplot(anu, nrows = round(length(data.num)/2)) %>%
+  layout(title = 'Histogram Numeric Variable')
+fig
+
+
+

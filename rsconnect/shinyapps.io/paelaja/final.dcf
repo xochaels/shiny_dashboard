@@ -1,0 +1,13 @@
+name: final
+title: final
+username:
+account: paelaja
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7812011
+bundleId: 6598471
+url: https://paelaja.shinyapps.io/final/
+when: 1670321578.41165
+lastSyncTime: 1670321578.41165
+asMultiple: FALSE
+asStatic: FALSE
